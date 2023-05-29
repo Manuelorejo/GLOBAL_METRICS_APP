@@ -39,7 +39,7 @@ if choice == 'Population':
     
     population_fig = go.Figure(population_data,population_layout)
     
-    iplot(population_fig)
+    plot(population_fig)
     
 
 
@@ -56,7 +56,7 @@ elif choice == "Unemployment":
     unemployment_layout = go.Layout(dict(title = 'Unemployment (% of labour force)',geo = dict(scope = 'world')))
     
     unemployment_fig = go.Figure(unemployment_data,unemployment_layout)
-    iplot(unemployment_fig)
+    plot(unemployment_fig)
     
     
 
@@ -74,7 +74,7 @@ elif choice == "GDP per Capita":
     
     gdp_layout = go.Layout(dict(title = 'GDP per capita (current US$) of countries of the world 2017',geo = dict(scope = 'world')))
     gdp_fig = go.Figure(gdp_data,gdp_layout)
-    iplot(gdp_fig)
+    plot(gdp_fig)
     
 
 
@@ -90,4 +90,4 @@ elif choice == "Surface Area":
     
     area_layout = go.Layout(dict(title = 'Surface area(in km2) of countries of the world 2017',geo = dict(scope = 'world')))
     area_fig = go.Figure(area_data,area_layout)
-    iplot(area_fig)
+    plot(area_fig)
