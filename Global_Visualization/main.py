@@ -6,7 +6,7 @@ import chart_studio.plotly as py
 import plotly.graph_objects as go
 from plotly.offline import download_plotlyjs,init_notebook_mode,plot,iplot
 
-df = pd.read_csv('First_edit.csv')
+df = pd.read_csv('Global_Visualization/First_edit.csv')
 
 
 st.title('GLOBAL METRICS')
